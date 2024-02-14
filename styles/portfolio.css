@@ -11,24 +11,24 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    border:0;
+    border: 0;
     color: var(--White-Color, #FFF);
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 }
 
-.section-title{
+.section-title {
 
     color: var(--Dark-01, #181818);
     text-align: center;
     font-size: 35px;
-    font-weight: 700;    
+    font-weight: 700;
 
 }
 
 
-.section-description{
+.section-description {
     color: var(--Dark-03, #757575);
     text-align: center;
     font-size: 18px;
@@ -67,14 +67,14 @@ nav a {
 }
 
 /* header related styles */
-.header{
-    background-color:#FFF8F3; 
+.header {
+    background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
 
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -83,34 +83,50 @@ nav a {
 
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 500px;
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     color: var(--Dark-02, #474747);
     margin-bottom: 0px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* auto mane ja baki ase vag kore niye nao */
+}
 
 /* about section styles*/
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
 
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}
+
+.about-info{
+    text-align: center;
 }
